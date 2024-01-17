@@ -130,8 +130,8 @@ en mayúscula. */
 print_r("<h4>Crear una función que reciba un array de nombres y que convierta la primera letra de cada nombre
 en mayúscula.</h4> \n");
 $array_nombres = ["luis", "pepe", "juanito"];
-function primera_letra_mayus(&$array_nombres){
-    foreach ($array_nombres as &$primer_char) {
+function primera_letra_mayus($array_nombres){
+    foreach ($array_nombres as $primer_char) {
         $primer_char = ucfirst($primer_char);
         echo "<li>". $primer_char ."</li>\n";
     }
