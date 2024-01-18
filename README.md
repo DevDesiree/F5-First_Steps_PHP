@@ -21,3 +21,27 @@ Bienvenido a F5-First_Steps_PHP, un taller pedagógico creado por **Femcoders F5
 ![Alt text](./Img%20Readme/modulos-xampp.png)
 
 4. Y listo! Ya tienes tu entorno preparado.
+
+## 📂 Contenido de las Carpetas
+
+1. **Variables**
+   - Carpeta: `Variables`
+   - Descripción: Contiene ejercicios relacionados con el uso de variables en PHP.
+   - Archivos:
+     - `variables.php`: Ejercicios relacionados con variables.
+     - `variables.md`: Enunciados de cada ejercicio sin la solución. **Entra aquí si quieres ponerlos a prueba! -> [Enlace a variables.md](./Variables/variables.md)**
+
+2. **Arrays y Funciones**
+   - Carpeta: `Arrays-Funciones`
+   - Descripción: Incluye ejercicios que abordan el trabajo con arrays y funciones en PHP.
+   - Archivos:
+     - `arrays-funciones.php`: Ejercicios relacionados con arrays y funciones.
+     - `arrays-funciones.md`: Enunciados de cada ejercicio sin la solución. **Entra si quieres ponerlos a prueba! -> [Enlace a arrays-funciones.md](./Arrays-Funciones/arrays-funciones.md)**
+
+3. **Clases y Funciones**
+   - Carpeta: `Clases-Funciones`
+   - Descripción: Contiene ejercicios centrados en el uso de clases y sus funciones en PHP.
+   - Archivos:
+     - `clases-funciones.php`: Ejercicios relacionados con clases y funciones.
+     - `clases-funciones.md`: Enunciados de cada ejercicio sin la solución. **Entra si quieres ponerlos a prueba! -> [Enlace a clases-funciones.md](./Clases-Funciones/clases-funciones.md)**
+
