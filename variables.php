@@ -1,5 +1,5 @@
 <?php
-
+echo "<div style='text-align: center;'>";
 print_r("<h2>Variables</h2>");
 /* 1. Declara una variable por cada tipo de dato y asignar un valor */
 /* 2. Muestra el valor de esa variable en consola y en pantalla (Averigua cómo imprimir el valor
@@ -41,34 +41,42 @@ print_r("<h4>¿Qué tipo de dato son las siguientes variables?</h4> \n");
 echo "<b>Fácil \n </b><br>";
 $nombre = "Luna";
 var_dump($nombre);
+echo "\n <br>";
 $apellido = "Lovegood";
 var_dump($apellido);
+echo "\n <br>";
 $edad = 42;
 var_dump($edad);
+echo "\n <br>";
 $Ravenclaw = true;
 var_dump($Ravenclaw);
-echo "\n <br>";
+echo "\n <br><br>";
 
 
 //Medio
 echo "<b>Medio \n </b><br>";
 $promedio = (8 + 9.5 + 9 + 10 + 8) / 5;
 var_dump($promedio);
+echo "\n <br>";
 $nombre_completo = $nombre . " " . $apellido;
 var_dump($nombre_completo);
+echo "\n <br>";
 $presento_examen = (bool) 1;
 var_dump($presento_examen);
-echo "\n <br>";
+echo "\n <br><br>";
 
 
 //Avanzado
 echo "<b>Avanzado \n </b><br>";
 $numero_preguntas = 5 + "5";
 var_dump($numero_preguntas);
+echo "\n <br>";
 $numero_respuestas = "5" + 5;
 var_dump($numero_respuestas);
+echo "\n <br>";
 $promedio_maximo = $numero_respuestas / 1.0;
 var_dump($promedio_maximo);
+echo "\n <br>";
 $nargles = 3 . "5 nargles";
 var_dump($nargles);
 echo "\n <br>";
@@ -83,11 +91,17 @@ $tiene_2_patas = false;
 // ¿Cuál es el resultado según las tablas de verdad?
 print_r("¿<b>Cuál es el resultado según las tablas de verdad? </b> \n <br>");
 var_dump($es_un_michi_grande && $le_gusta_comer);
+echo "\n <br>";
 var_dump($es_un_michi_grande || $sabe_volar);
+echo "\n <br>";
 var_dump($es_un_michi_grande || $sabe_volar);
+echo "\n <br>";
 var_dump($sabe_volar || $tiene_2_patas);
+echo "\n <br>";
 var_dump(!$le_gusta_comer);
+echo "\n <br>";
 var_dump(!$le_gusta_comer || $es_un_michi_grande);
+echo "\n <br>";
 
 /* 5. Convierte todos los caracteres del string a mayúsculas e imprimir en pantalla, sin modificar la
 variable original. */
@@ -125,7 +139,8 @@ print_r("<h4>Declara dos variables y dale un valor de tipo integer e imprime amb
 $integer_1 = 10;
 $integer_2 = 20;
 
-echo "Valor de primera variable :  $integer_1  \n Valor de segunda variable : $integer_2";
+echo "Valor de primera variable :  $integer_1  \n <br>";
+echo " Valor de segunda variable : $integer_2 \n <br>";
 
 /* 11. Suma ambas variables de tipo integer e imprime en pantalla. */
 print_r("<h4>Suma ambas variables de tipo integer e imprime en pantalla.</h4>\n");
@@ -152,7 +167,7 @@ $valor_2 = false;
 
 echo "El nuevo tipo de dato de valor_1 es : " . gettype($valor_1) . "\n <br>";
 echo "El nuevo de dato de valor_2 es : " . gettype($valor_2) . "\n <br>";
-
+echo"</div>"
 ?>
 
 
