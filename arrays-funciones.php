@@ -1,4 +1,5 @@
 <?php
+echo "<div style='text-align: center;'>";
 echo "<h2>Arrays/Funciones</h2>";
 /* 1. Crear función que reciba como parámetros dos números y que retorne la suma de ellos. Imprime
 en pantalla y por consola el resultado */
@@ -137,3 +138,5 @@ function primera_letra_mayus($array_nombres){
     }
 }
 primera_letra_mayus($array_nombres);
+echo "</div>"
+?>
